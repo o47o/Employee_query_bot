@@ -10,7 +10,7 @@
                                 │                        │
                                 ▼                        ▼
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Document      │◄───│  Document Loader │    │  Vector Store   │
+│   Document      │◄───│  Document Loader │───▶|  Vector Store    │
 │   Processing    │    │   (loader.py)    │    │     (FAISS)     │
 │   (PDF/TXT)     │    │                  │    │                 │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
